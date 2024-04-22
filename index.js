@@ -13,7 +13,7 @@ app.use(express.json());
 // CORS configuration to allow requests from localhost:3000 and include credentials
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://tm-01.vercel.app/",
     credentials: true,
   })
 );
